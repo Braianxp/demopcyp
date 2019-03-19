@@ -42,18 +42,28 @@ namespace ConsoleApplication1
             Console.ReadKey();
         }
 
-        public static void removeColor(List<string> listColors,List<string> listRemovecolors)
+        public static List<string> removeColor(List<string> listColors,List<string> listRemovecolors)
         {
             List<string> listaremovidos = new List<string>();
 
+            Boolean b = true;
 
             foreach (var item in listColors)
             {
                 foreach (var item2 in listRemovecolors)
                 {
-
+                    if (item.Equals(item2))
+                    {
+                        b = false;
+                    }
                 }
+                if (b)
+                {
+                    listaremovidos.Add(item);
+                }
+                b = true;
             }
+            return listaremovidos;
         }
 
     }
