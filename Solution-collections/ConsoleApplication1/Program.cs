@@ -19,7 +19,7 @@ namespace ConsoleApplication1
 
         public static void DemoDic()
         {
-            
+            Dictionary<string,int> dic = new Dictionary<string, int>();
         }
 
         #region Demolista
