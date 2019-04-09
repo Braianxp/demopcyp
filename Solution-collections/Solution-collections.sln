@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{F899251E-12EA-4370-8A55-0F6C768434F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multiplicarMatrices", "multiplicarMatrices\multiplicarMatrices.csproj", "{96067C10-1DEA-485F-9371-D7C47934B629}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{F899251E-12EA-4370-8A55-0F6C768434F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F899251E-12EA-4370-8A55-0F6C768434F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F899251E-12EA-4370-8A55-0F6C768434F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96067C10-1DEA-485F-9371-D7C47934B629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96067C10-1DEA-485F-9371-D7C47934B629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96067C10-1DEA-485F-9371-D7C47934B629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96067C10-1DEA-485F-9371-D7C47934B629}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8095FD38-596C-42B2-AFF7-10CB26DDEF76}
 	EndGlobalSection
 EndGlobal
