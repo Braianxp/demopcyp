@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multiplicarMatrices", "multiplicarMatrices\multiplicarMatrices.csproj", "{96067C10-1DEA-485F-9371-D7C47934B629}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abecedario", "Abecedario\Abecedario.csproj", "{91292EE8-2FC6-431E-91C4-4E1C71531F4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{96067C10-1DEA-485F-9371-D7C47934B629}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96067C10-1DEA-485F-9371-D7C47934B629}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96067C10-1DEA-485F-9371-D7C47934B629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91292EE8-2FC6-431E-91C4-4E1C71531F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91292EE8-2FC6-431E-91C4-4E1C71531F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91292EE8-2FC6-431E-91C4-4E1C71531F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91292EE8-2FC6-431E-91C4-4E1C71531F4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
